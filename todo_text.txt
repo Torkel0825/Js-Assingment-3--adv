@@ -3,6 +3,17 @@
 
 
 ******************************************
+
+**!
+Feilhåndtering og statuskoder
+
+Når vi gjør en HTTP-forespørsel, får vi en statuskode tilbake:
+
+    200 OK – Forespørselen var vellykket
+    404 Not Found – API-et fant ikke ressursen du ba om
+    500 Internal Server Error – Noe gikk galt på serveren
+
+***
 :
 
 ---Krav til oppgaven
