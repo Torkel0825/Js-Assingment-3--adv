@@ -1,0 +1,13 @@
+
+
+to do:
+  clean up my naming sense. 
+  fix the modal size. 
+  make the modal close with esc
+    and a X in the top corner.
+
+  Fix the bug with the button. Currently it adds two new fact with every click, but never clears nor stores the previous facts.
+  The last function() needs to be remade and improved. 
+  saving system with favorite facts
+  
+

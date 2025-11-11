@@ -11,10 +11,29 @@
     margin:10px;
     box-sizing:border-box;
 }
-
-#modal-box{
-    /*display:none;*/
-    width:65%;
-    height:30%;
+body{
+    height:auto;
+    width:auto;
+    
 }
 
+.modal-box{
+    display: none; /* hidden until the js coded button is pressed*/
+    position: fixed;
+    width: 65%;
+    height: 30%;
+    z-index: 1; /* sits on top of everything else.*/
+    left: 0;
+    top: 0;
+    overflow: auto;
+
+}
+
+.modal-dog{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+
+}
